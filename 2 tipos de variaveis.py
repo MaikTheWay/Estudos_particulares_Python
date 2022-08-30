@@ -10,16 +10,16 @@
 
 print(1 + 1)
 print(1 - 1)
-print(4 % 2)   # or num 4 %= 2
-print(4 / 2)   # or num 4 /= 2
-print(1 * 2)   # or num 1 *= 2
+print(4 % 2)        # or num 4 %= 2
+print(4 / 2)        # or num 4 /= 2
+print(1 * 2)        # or num 1 *= 2
 print(8 ** 2)
 
 num = 42
-type(num)     # Para saber o tipo de numero
+type(num)           # Para saber o tipo de numero
 print(num + 1)
 
-print(1_000_000) # Separa as casa "." por "_"
+print(1_000_000)    # Voce pode separar as casas por . ou _
 
 
 
@@ -103,16 +103,16 @@ print(nome1)
 estabelecimento = "gina's bar"  # Obrigatorio " " por causa do Gina's
 print(estabelecimento)          # Da pra ser tbm Gina\'s bar
 
-print(nome.upper())            # Todas as letras maiusculas
-print(nome.lower())            # Todas as letras minusculas
-print(nome.split())            # Coloca as palavras em uma lista de strings
-print(nome[0:7])               # Vai da letra 0 até a 7 letra (conta os espaços)
+print(nome.upper())             # Todas as letras maiusculas
+print(nome.lower())             # Todas as letras minusculas
+print(nome.split())             # Coloca as palavras em uma lista de strings
+print(nome[0:7])                # Vai da letra 0 até a 7 letra (conta os espaços)
 
 print(nome.split()[0])
 print(nome.split()[1])
 
-print(nome[::-1])             # Comece do primeiro elemento e inverta ele com o
-                              # ultimo  (inverte a string)
+print(nome[::-1])               # Comece do primeiro elemento e inverta ele com o
+                                # ultimo  (inverte a string)
 
 print(nome.replace('a', 'c'))   # Inverte uma letra por outra
 

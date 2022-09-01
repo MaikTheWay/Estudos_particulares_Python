@@ -407,3 +407,28 @@ print(f'harmonica: {harmonica}')
 
 aritmetica = (x + y + z) / 3
 print(f'aritmética: {aritmetica}')
+
+
+
+# Faça uma prova de matemática para crianças que estão aprendendo a somar números inteiros menores do que 100.
+# Escolha números aleatórios entre 1 e 100, e mostre na tela a pergunta: qual é a soma de a + b, onde a e b são os números aleatórios. Peça a resposta. Faça cinco perguntas ao aluno, e mostre para ele as perguntas e as respostas corretas, além de quantas vezes o aluno acertou.
+import random
+
+acerto = 0
+x = 0
+while x != 5:
+    escolher1 = random.choice(range(0, 101))
+    escolher2 = random.choice(range(0, 101))
+
+    print(f'{escolher1} + {escolher2}')
+    soma = escolher1 + escolher2
+    resultado = int(input('Qual é o resultado dessa conta: '))
+    if resultado == soma:
+        acerto = int(acerto + 1)
+        print('Acertou!\n')
+    else:
+        print('Essa voce errou!\n')
+    x += 1
+print(f'Voce acertou {acerto} vezes')
+
+
